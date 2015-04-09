@@ -7,5 +7,14 @@ url: 'http://blog.molawson.com' # the base hostname & protocol for your site
 twitter_username: molawson
 github_username:  molawson
 
+permalink: :title
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+      layout: 'post'
+
 # Build settings
-markdown: kramdown
+markdown: redcarpet
