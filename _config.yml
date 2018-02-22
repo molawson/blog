@@ -17,4 +17,4 @@ defaults:
       layout: 'post'
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
